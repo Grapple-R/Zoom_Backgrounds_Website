@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  background-color: #30444D;
+}
+
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #DEDAD9;
+  color: black;
+  font-size: 20px;
+  margin-top:25px ;
+
+}
+
+div.gallery {
+  margin: 20px;
+  border: 5px solid #DEDAD9;
+  float: left;
+  width: 400px;
+  height: auto;
+  align-content: center;
+  background-color: #DEDAD9;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.gallery:hover img { 
+  transform: scale(1.01);
+
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #DEDAD9;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-content: center;
+  background-color: #DEDAD9;
+  color: #595757;
+}
+
+.navbar a {
+  margin: 0px auto;
+  color: #595757;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+}
+
+  .navbar a:hover {
+      background-color: white;
+      color: #1b1b1b;
+  }
+
+  .foreground {
+    background-color: navajowhite;
+    height: auto;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.foot {
+  margin: 0px auto;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+div.content2{
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  width: 50%;
+}
